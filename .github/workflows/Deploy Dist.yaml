@@ -1,6 +1,7 @@
 name: Deploy Dist folder
 # on: [push,workflow_dispatch]
 # Adding Filters to trigger workflow only on specific branches and ignore changes to specific files and folders
+# Commenting push trigger for now to avoid multiple runs while testing, workflow can be triggered manually using workflow_dispatch event
 on: 
     # push:
     #     branches:
