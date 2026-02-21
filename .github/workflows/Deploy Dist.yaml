@@ -1,5 +1,6 @@
 name: Deploy Dist folder
 # on: [push,workflow_dispatch]
+# Adding Filters to trigger workflow only on specific branches and ignore changes to specific files and folders
 on: 
     # push:
     #     branches:
@@ -56,4 +57,4 @@ jobs:
               ls dist
               echo 'Deployment completed'
 
-              
+

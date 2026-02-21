@@ -1,4 +1,4 @@
-name: Deploy React to Github pages
+name: Deploy Applicarion to Github pages
 on: 
     push:
         branches:
@@ -38,7 +38,7 @@ jobs:
     deploy:
         runs-on: ubuntu-latest
         needs: build
-
+        #Source - https://docs.github.com/en/actions/deployment/deploying-to-github-pages/deploying-to-github-pages-with-github-actions#deploying-to-github-pages-using-the-deploy-pages-action
         # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
         permissions:
             pages: write      # to deploy to Pages
