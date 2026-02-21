@@ -55,11 +55,3 @@ jobs:
               echo 'deploying below files'
               ls dist
               echo 'Deployment completed'
-
-
-
-
-
-
-
-  
